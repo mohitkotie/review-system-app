@@ -12,9 +12,15 @@
 		638B4AEB1EF808520063FE62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638B4AE91EF808520063FE62 /* Main.storyboard */; };
 		638B4AED1EF808530063FE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638B4AEC1EF808530063FE62 /* Assets.xcassets */; };
 		638B4AF01EF808530063FE62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638B4AEE1EF808530063FE62 /* LaunchScreen.storyboard */; };
+		638B4AF81EF80BDA0063FE62 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B4AF71EF80BDA0063FE62 /* ListViewController.swift */; };
+		638B4AFA1EF817F00063FE62 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B4AF91EF817EF0063FE62 /* ReviewViewController.swift */; };
+		638B4AFC1EF81C1B0063FE62 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B4AFB1EF81C1B0063FE62 /* DetailViewController.swift */; };
+		D9D4CD93434A3769BFA975D7 /* Pods_ReviewLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E813265FE4B8203D356F6 /* Pods_ReviewLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		446E813265FE4B8203D356F6 /* Pods_ReviewLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReviewLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62521260B0BB2C2D80D4D59F /* Pods-ReviewLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReviewLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReviewLogin/Pods-ReviewLogin.release.xcconfig"; sourceTree = "<group>"; };
 		638B4AE21EF808510063FE62 /* ReviewLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviewLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		638B4AE51EF808520063FE62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		638B4AE71EF808520063FE62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		638B4AEC1EF808530063FE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638B4AEF1EF808530063FE62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638B4AF11EF808530063FE62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638B4AF71EF80BDA0063FE62 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		638B4AF91EF817EF0063FE62 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		638B4AFB1EF81C1B0063FE62 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BDF9411D2B740C084F353B60 /* Pods-ReviewLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReviewLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReviewLogin/Pods-ReviewLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D4CD93434A3769BFA975D7 /* Pods_ReviewLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				638B4AE41EF808520063FE62 /* ReviewLogin */,
 				638B4AE31EF808510063FE62 /* Products */,
+				7D619015A757622A1352E6FB /* Pods */,
+				D7792DD9DD4AE56457E1ED2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +73,28 @@
 				638B4AEC1EF808530063FE62 /* Assets.xcassets */,
 				638B4AEE1EF808530063FE62 /* LaunchScreen.storyboard */,
 				638B4AF11EF808530063FE62 /* Info.plist */,
+				638B4AF71EF80BDA0063FE62 /* ListViewController.swift */,
+				638B4AF91EF817EF0063FE62 /* ReviewViewController.swift */,
+				638B4AFB1EF81C1B0063FE62 /* DetailViewController.swift */,
 			);
 			path = ReviewLogin;
+			sourceTree = "<group>";
+		};
+		7D619015A757622A1352E6FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9411D2B740C084F353B60 /* Pods-ReviewLogin.debug.xcconfig */,
+				62521260B0BB2C2D80D4D59F /* Pods-ReviewLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7792DD9DD4AE56457E1ED2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446E813265FE4B8203D356F6 /* Pods_ReviewLogin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 638B4AF41EF808530063FE62 /* Build configuration list for PBXNativeTarget "ReviewLogin" */;
 			buildPhases = (
+				AD19CE396C65C8EB3532CB3E /* [CP] Check Pods Manifest.lock */,
 				638B4ADE1EF808510063FE62 /* Sources */,
 				638B4ADF1EF808510063FE62 /* Frameworks */,
 				638B4AE01EF808510063FE62 /* Resources */,
+				1C35E0738A3DED47891554F4 /* [CP] Embed Pods Frameworks */,
+				8662A043BFEBEC189DBE2755 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C35E0738A3DED47891554F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReviewLogin/Pods-ReviewLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8662A043BFEBEC189DBE2755 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReviewLogin/Pods-ReviewLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD19CE396C65C8EB3532CB3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		638B4ADE1EF808510063FE62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +222,9 @@
 			files = (
 				638B4AE81EF808520063FE62 /* ViewController.swift in Sources */,
 				638B4AE61EF808520063FE62 /* AppDelegate.swift in Sources */,
+				638B4AFC1EF81C1B0063FE62 /* DetailViewController.swift in Sources */,
+				638B4AFA1EF817F00063FE62 /* ReviewViewController.swift in Sources */,
+				638B4AF81EF80BDA0063FE62 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +347,7 @@
 		};
 		638B4AF51EF808530063FE62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF9411D2B740C084F353B60 /* Pods-ReviewLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReviewLogin/Info.plist;
@@ -272,6 +360,7 @@
 		};
 		638B4AF61EF808530063FE62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62521260B0BB2C2D80D4D59F /* Pods-ReviewLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReviewLogin/Info.plist;
@@ -301,6 +390,7 @@
 				638B4AF61EF808530063FE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

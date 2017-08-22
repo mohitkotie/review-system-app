@@ -1,0 +1,6 @@
+framework module Pods_ReviewLogin {
+  umbrella header "Pods-ReviewLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
